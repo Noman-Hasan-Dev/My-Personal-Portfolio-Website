@@ -6,9 +6,10 @@ const formStatus = document.getElementById("formStatus");
 
 const roleWords = [
   "Software Engineer",
+  "Angular Developer",
   "Full Stack Developer",
   "Problem Solver",
-  "React.js Enthusiast",
+  "Angular.js Enthusiast",
   "Backend Integrator"
 ];
 
