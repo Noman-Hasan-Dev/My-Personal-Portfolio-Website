@@ -220,11 +220,12 @@ a {
 }
 
 .hero-title {
-  font-size: clamp(2.2rem, 8vw, 4.4rem);
+  font-size: clamp(1.8rem, 6vw, 3.4rem);
   font-weight: 800;
   line-height: 1.08;
   margin-bottom: 0.4rem;
   color: #0b1326;
+  white-space: nowrap;
 }
 
 .hero-role {
@@ -1223,6 +1224,11 @@ a {
 @media (max-width: 767.98px) {
   .section-space {
     padding: 4.4rem 0;
+  }
+
+  .hero-title {
+    font-size: clamp(1.5rem, 9vw, 2.4rem);
+    line-height: 1;
   }
 
   .hero-actions {
